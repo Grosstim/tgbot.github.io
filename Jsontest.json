@@ -1,0 +1,252 @@
+{
+    "cabinet": {
+        "1": {
+            "events": [
+                {
+                    "datetime": "2025-04-08T11:58:04+05:00",
+                    "description": "Авария (верхний порог)",
+                    "event_type": "alarm",
+                    "source": "cabinet_temperature"
+                }
+            ],
+            "state": [
+                {
+                    "breaker_input_state": false,
+                    "breaker_output_state": false,
+                    "cabinet_humidity": 14,
+                    "cabinet_temperature": 26,
+                    "control_cabinet_open": false,
+                    "datetime": "2025-04-08T14:38:23+05:00",
+                    "input_voltage": 218,
+                    "lightning_protect_l": false,
+                    "lightning_protect_n": false,
+                    "ups_alarm": false,
+                    "ups_battery_mode": false,
+                    "ups_ready": false
+                }
+            ]
+        }
+    },
+    "controller_pds": {
+        "1": {
+            "params": [
+                {
+                    "calibration_code": [                  
+                        137000,
+                        137000
+                    ],
+                    "datetime": "2025-04-07T13:36:32+05:00",
+                    "electronic_stamp": [
+                        "0514"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true                                  
+                    "datetime": "2025-04-08T14:38:03+05:00",
+                    "zero_code": [
+
+                        9232586,
+                        8618752,
+                        8972618
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "params": [
+                {
+                    "calibration_code": [
+                        137000,
+                        137000
+                    ],
+                    "datetime": "2025-04-07T13:36:32+05:00",
+                    "electronic_stamp": [
+                        "1699"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-08T14:38:07+05:00",
+                    "zero_code": [
+                        7580072,
+                        7970962,
+                        4233667
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "params": [
+                {
+                    "calibration_code": [
+                        150000,
+                        150000
+                    ],
+                    "datetime": "2025-04-07T13:36:58+05:00",
+                    "electronic_stamp": [
+                        "425b"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-08T14:38:12+05:00",
+                    "zero_code": [
+                        7870748,
+                        8285256,
+                        4233079
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "params": [
+                {
+                    "calibration_code": [
+                        150000,
+                        150000
+                    ],
+                    "datetime": "2025-04-07T13:36:59+05:00",
+                    "electronic_stamp": [
+                        "9f52"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-08T14:38:11+05:00",
+                    "zero_code": [
+                        8583641,
+                        9453564,
+                        4239229
+                    ]
+                }
+            ]
+        }
+    },
+    "datetime": "2025-04-08T14:38:43+05:00",
+    "external_dimensions": {
+        "1": {
+            "status": [
+                {
+                    "datetime": "2025-04-08T11:30:59+05:00",
+                    "device_id": 1,
+                    "transparency": {
+                        "110.0": 96,
+                        "145.0": 100,
+                        "175.0": 97,
+                        "35.0": 99,
+                        "5.0": 95,
+                        "70.0": 95
+                    }
+                },
+                {
+                    "datetime": "2025-04-08T11:30:59+05:00",
+                    "device_id": 0,
+                    "transparency": {
+                        "110.0": 94,
+                        "145.0": 95,
+                        "175.0": 97,
+                        "35.0": 90,
+                        "5.0": 90,
+                        "70.0": 93
+                    }
+                },
+                {
+                    "datetime": "2025-04-08T11:30:59+05:00",
+                    "device_id": 2,
+                    "transparency": {
+                        "110.0": 95,
+                        "145.0": 95,
+                        "175.0": 90,
+                        "35.0": 96,
+                        "5.0": 97,
+                        "70.0": 98
+                    }
+                }
+            ]
+        }
+    },
+    "server": {
+        "stolb-db": {
+            "cpu": [
+                {
+                    "cpu_temperature": {
+                        "Core 0": 38,
+                        "Core 1": 38,
+                        "Core 2": 41,
+                        "Core 3": 37,
+                        "Core 4": 38,
+                        "Core 5": 41,
+                        "Package id 0": 41         Это средняя температура?
+                    },
+                    "cpu_usage": {
+                        "0": 32,
+                        "1": 30,
+                        "2": 50,
+                        "3": 32,
+                        "4": 27,
+                        "5": 39,
+                        "tot": 35            Это средняя загрузка проца в %?
+                    },
+                    "datetime": "2025-04-08T14:38:25+05:00",
+                    "ram_usage": 53
+                }
+            ],
+            "hdd": [
+                {
+                    "datetime": "2025-04-08T14:17:25+05:00",
+Как собрать актуальные данные свободного и занятого места на диске? 
+           
+         "hdd_free_space_gb": {
+                        "/hdd": 1722,
+                        "/mnt/pkg": 11,
+                        "/run": 14,
+                        "/run/user/0": 3,
+                        "/tmp": 14,
+                        "ROOT": 277
+                    },
+                    "hdd_usage": {
+                        "/hdd": 6,
+                        "/mnt/pkg": 52,
+                        "/run": 10,
+                        "/run/user/0": 0,
+                        "/tmp": 7,
+                        "ROOT": 69
+                    }
+                }
+            ],
+            "load": [  Что за нагрузка? 
+
+                {
+                    "datetime": "2025-04-08T14:38:22+05:00",
+                    "load": 2.13232
+                }
+            ],
+            "network": [
+                {
+                    "datetime": "2025-04-08T14:38:22+05:00",
+                    "rx_usage": {
+                        "eth0": 0,
+                        "eth1": 0,
+                        "eth2": 0,
+                        "eth5": 0
+                    },
+                    "tx_usage": {
+                        "eth0": 0,
+                        "eth1": 0,
+                        "eth2": 0,
+                        "eth5": 0
+                    }
+                }
+            ]
+        }
+    }
+}
+
